@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+header .logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 15%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: -20px;
+    margin-bottom: 25px; 
+
+}
+
+.top-image {
+    margin-bottom: 40px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,14 +138,60 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
+    flex-flow: row nowrap;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    width: 33%;
+}
+
+.text-container h2, p {
+    display: flex;
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +215,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE STYLES */
+
+.text-container-about {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.middle-content-about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.middle-content-about div {
+    height: 33%;
+    width: 45%;
+}
+
+.middle-content-about h2, p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.middle-content-about button {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.aligncenter {
+    margin-bottom: 60px;
+}
+
+.bottom-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.bottom-content-about .lets-work-together {
+    width: 100%;
+    padding-bottom: 20px; 
+    margin-top: -20px;
 }
