@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Older versions of HTML mostly used <div>s to add sections to their website, to make it easier to style the site in chunks. Nowadays, when search engines and accessibility readers look over your site, they're looking for more information that a generic <div>. Search engines are looking for SEO (search engine optimization) content - so keywords giving hints to what content is present, and what type of site it is (blog, etc). Accessibility readers are also looking for the same types of things, for people who have disabilities, and need help "seeing" your site in a different way. Therefore, if you have a site full of only generic descriptor tags for your HTML, the search engine is likely to pass over it, and you miss out on search engine placement, etc. Also, accessibility readers will not have any information, and therefore, you would be preventing those with disabilities from being able to use your site as well as they could if you had more semantic tags. For example, HTML5 has tags for <header>, <footer>, <section>, <article>, <aside> (sidebar), <main>, etc. The word semantic just means "the meaning behind your words." So, Semantic HTML is literally using containers/tags that define what each section of your site is for. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+a) Display:inline; ignores any sizes that you assign to it, and will display the content within one line, following the other elements surrounding it. Display:inline; also ignores vertical margins and padding. 
+b) Display:block; allows a height property, but displays the content as a full block (i.e. the full width of the page or parent container). Display: block; also forces a line break, as all block elements do. 
 
 3. What are the 4 areas of the box model?
 
+I use an acronym that kind of rhymes to help me remember: MBPC. Each letter represents each area on all four sides of the box: top, right, bottom, and left. The area outside the box is the Margin, then there's the Border, which would outline the box, then there's the padding in between the border and the last area, which is the actual Content of your element. The Content can be text or an image - whatever you want to put in there!
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items: center; property works on the cross-axis, which runs horizontally. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is great, because it allows all of the developers on a team the ability to work on the same project at the same time. Imagine you have 5000 developers in your company, working on your team's rideshare app. Your app has lots of different sections to it that different developers can contribute to. So, you split assignments for each of your devs to work on. Then, you have them all work on branches of the original project. As they make updates, they push their changes, and make a pull request for someone else to review their work, and make sure it doesn't break other things, lol, before they merge it with the main or production master. Each contribution is reviewed to make sure that it fits in with other people's work, and that each person's work isn't being overwritten by someone else's who might be working on the same feature.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
