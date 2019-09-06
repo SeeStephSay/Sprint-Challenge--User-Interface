@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+    v2.0 | 20110126
+    License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -144,3 +144,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+                /***** CONTACT STYLES HERE *****/
+
+form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 3px dashed darkblue;
+    border-radius: 10px;
+}
+
+legend {
+    padding-bottom: 10px;
+}
+
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+form button {
+    color: white;
+    background: darkblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+form button:hover {
+    color: white;
+    background: black;
+}
+

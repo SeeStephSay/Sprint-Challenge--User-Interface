@@ -37,6 +37,7 @@ Edit this document to include your answers after each question. Make sure to lea
 Semantic HTML is basically just HTML tags that are describing themselves in their titles. Like, if I were a semantic HTML tag, I might be < mom >, lol. They make it easier for screen readers (for accessibility) and search engines (for SEO) to figure out what each part of your website is. For example, you might have a header, footer, section, and article tags, and just by reading what they say, you automatically know what kind of content will be in them. In contrast, before semantic HTML existed, those same sections might have just all been divs, leaving you scratching your head over where all the content you need actually is. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
 Display: block makes the element a block element, which means it takes up the full width of the page, and you can define a specific height for it. It also creates a line break, just like any other block element.
 Display: inline doesn't allow you to assign it a height or a width, ignores vertical margins & padding, and will display the content in one line, following any other elements around it. 
 
@@ -117,5 +118,5 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
-* [ ] Build a contact page and create a form with several inputs of your choosing
+* [x] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
