@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is basically just HTML tags that are describing themselves in their titles. Like, if I were a semantic HTML tag, I might be < mom >, lol. They make it easier for screen readers (for accessibility) and search engines (for SEO) to figure out what each part of your website is. For example, you might have a header, footer, section, and article tags, and just by reading what they say, you automatically know what kind of content will be in them. In contrast, before semantic HTML existed, those same sections might have just all been divs, leaving you scratching your head over where all the content you need actually is. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Display: block makes the element a block element, which means it takes up the full width of the page, and you can define a specific height for it. It also creates a line break, just like any other block element.
+Display: inline doesn't allow you to assign it a height or a width, ignores vertical margins & padding, and will display the content in one line, following any other elements around it. 
+
 
 3. What are the 4 areas of the box model?
 
+1) Margin is an area outside the box, invisible by default, and pushes it away from other things.
+2) Border is exactly what it sounds like - an area that can be viewable, and defines the edges of your box. 
+3) Padding is inside the border, and creates extra space between the content and the border. 
+4) Content is whatever your box actually contains and is displaying, like text or an image, for example.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align property works on the cross axis, which is the one that runs vertically. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows a team of developers to work on the same project, at the same time, without overwriting each other's code. Each time someone tries to add their code to the master branch, there is another person there to review it and decide what to add even if there are conflicts, which is what the software (Git)  keeps track of. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
