@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+                /***** TOP STYLES *****/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +86,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+                /***** MIDDLE STYLES *****/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +116,47 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+                /***** BOTTOM STYLES *****/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +170,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+                /***** FOOTER STYLES *****/
 
 footer {
     width: 100%;
