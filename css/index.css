@@ -223,6 +223,48 @@ footer nav a {
     text-decoration: none;
 }
 
+                /***** ABOUT STYLES HERE *****/
+
+.text-container-about {
+    margin: 0 20px;
+}
+
+.middle-content-about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.middle-content-about div {
+    height: 33%;
+    width: 45%;
+}
+
+.middle-content-about h2, p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.middle-content-about button {
+    background: white;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.aligncenter {
+    margin-bottom: 60px;
+}
+
+.bottom-content-about .lets-work-together {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
                 /***** CONTACT STYLES HERE *****/
 
 form {
