@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+    v2.0 | 20110126
+    License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+                /***** HEADER STYLES *****/
+
+header {
+    display: flex;
+    margin: 25px 0;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 100%;
+    margin: 0 40px;
+    /* border: 1px solid blue; */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+nav a:hover {
+    color: grey;
+}
+
+.top-image {
+    margin-bottom: 20px;
+}
+
+                /***** TOP STYLES *****/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +117,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+                /***** MIDDLE STYLES *****/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +147,47 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+                /***** BOTTOM STYLES *****/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +201,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+                /***** FOOTER STYLES *****/
 
 footer {
     width: 100%;
@@ -144,3 +222,85 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+                /***** ABOUT STYLES HERE *****/
+
+.text-container-about {
+    margin: 0 20px;
+}
+
+.middle-content-about {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.middle-content-about div {
+    height: 33%;
+    width: 45%;
+}
+
+.middle-content-about h2, p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.middle-content-about button {
+    background: white;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.aligncenter {
+    margin-bottom: 60px;
+}
+
+.bottom-content-about .lets-work-together {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
+                /***** CONTACT STYLES HERE *****/
+
+form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 3px dashed darkblue;
+    border-radius: 10px;
+}
+
+legend {
+    padding-bottom: 10px;
+}
+
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+form button {
+    color: white;
+    background: darkblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+form button:hover {
+    color: white;
+    background: black;
+}
+
